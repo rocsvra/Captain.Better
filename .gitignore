@@ -6,3 +6,4 @@
 /src/.vs/Better
 /src/Better.Web.WeChat/bin/Debug/netcoreapp3.1
 /src/Better.Web.WeChat/obj
+/src/Better.Application/obj
