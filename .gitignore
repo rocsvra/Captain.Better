@@ -7,3 +7,7 @@
 /src/Better.Web.WeChat/bin/Debug/netcoreapp3.1
 /src/Better.Web.WeChat/obj
 /src/Better.Application/obj
+/src/Better.BackOffice.Mvc/obj
+/src/Better.WeChat.Mvc/obj
+/src/UUMS.DAL/bin/Debug/netcoreapp3.1
+/src/UUMS.DAL/obj
