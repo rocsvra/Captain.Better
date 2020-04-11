@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Captain.CO2NET.AutoMapper" Version="1.0.1" />
+    <PackageReference Include="Captain.DB2NET.NPoco4SqlServer" Version="1.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UUMS.Enitites\UUMS.Enitites.csproj" />
+  </ItemGroup>
+
+</Project>

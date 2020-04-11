@@ -11,3 +11,6 @@
 /src/Better.WeChat.Mvc/obj
 /src/UUMS.DAL/bin/Debug/netcoreapp3.1
 /src/UUMS.DAL/obj
+/src/UUMS.Enitites/obj
+/src/UUMS.Services/obj
+/src/UUMS.Services/bin/Debug/netstandard2.0
