@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Captain.CO2NET.AutoMapper" Version="1.0.1" />
-    <PackageReference Include="Captain.DB2NET.NPoco4SqlServer" Version="1.0.3" />
+    <PackageReference Include="Captain.DB2NET.NPoco4SqlServer" Version="1.0.6" />
   </ItemGroup>
 
   <ItemGroup>

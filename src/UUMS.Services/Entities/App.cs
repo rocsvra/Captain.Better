@@ -6,7 +6,7 @@ namespace UUMS.Services.Entities
     [TableName("App")]
     [PrimaryKey("Id", AutoIncrement = false)]
     [ExplicitColumns]
-    public class App
+    class App
     {
         [Column]
         public Guid Id { get; set; }

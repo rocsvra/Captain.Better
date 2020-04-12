@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UUMS.Enitites</name>
+    </assembly>
+    <members>
+        <member name="T:UUMS.Enitites.AppDto">
+            <summary>
+            应用
+            </summary>
+        </member>
+        <member name="P:UUMS.Enitites.AppDto.AppName">
+            <summary>
+            应用名称
+            </summary>
+        </member>
+    </members>
+</doc>

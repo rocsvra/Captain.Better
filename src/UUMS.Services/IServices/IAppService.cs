@@ -1,9 +1,15 @@
-﻿namespace UUMS.Services.IServices
+﻿using System;
+using System.Collections.Generic;
+using UUMS.Enitites;
+
+namespace UUMS.Services.IServices
 {
     public interface IAppService
     {
-        void Add();
-
-        void Modify();
+        AppDto Get(Guid id);
+        List<AppDto> GetAll();
+        void Add(AppDto appDto);
+        void Modify(AppDto appDto);
+        void Remove(Guid id);
     }
 }

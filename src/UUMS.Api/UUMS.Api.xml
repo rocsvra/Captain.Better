@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UUMS.Api</name>
+    </assembly>
+    <members>
+        <member name="T:UUMS.Api.Controllers.AppController">
+            <summary>
+            应用
+            </summary>
+        </member>
+        <member name="M:UUMS.Api.Controllers.AppController.Get(System.Guid)">
+            <summary>
+            获取应用
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UUMS.Api.Controllers.AppController.GetAll">
+            <summary>
+            获取所有应用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UUMS.Api.Controllers.AppController.Post(UUMS.Enitites.AppDto)">
+            <summary>
+            新增应用
+            </summary>
+            <param name="appDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UUMS.Api.Controllers.AppController.Put(UUMS.Enitites.AppDto)">
+            <summary>
+            修改应用
+            </summary>
+            <param name="appDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UUMS.Api.Controllers.AppController.Delete(System.Guid)">
+            <summary>
+            删除应用
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
