@@ -14,6 +14,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using NPoco;
+using UUMS.Api.Middlewares;
 using UUMS.Services;
 using UUMS.Services.IServices;
 
@@ -61,6 +62,7 @@ namespace UUMS.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseMiddleware(typeof(ExceptionHandlerMiddleWare));
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {

@@ -25,3 +25,5 @@
 /src/UUMS.Services/bin/Release/netstandard2.0
 /src/UUMS.Api/appsettings.json
 /src/UUMS.Api/appsettings.Development.json
+/src/Better.Schedule/bin/Debug/netcoreapp3.1
+/src/Better.Schedule/obj
